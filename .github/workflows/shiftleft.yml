@@ -32,7 +32,7 @@ jobs:
         SHIFTLEFT_GRPC_API_HOST: api.shiftleft.io:443
 
 
-    Build-Rules:
+  Build-Rules:
     runs-on: ubuntu-latest
     permissions: write-all
     needs: NextGen-Static-Analysis
@@ -53,3 +53,4 @@ jobs:
         SHIFTLEFT_API_HOST: www.shiftleft.io
         SHIFTLEFT_GRPC_TELEMETRY_HOST: telemetry.shiftleft.io:443
         SHIFTLEFT_GRPC_API_HOST: api.shiftleft.io:443
+
